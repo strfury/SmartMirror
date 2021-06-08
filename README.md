@@ -12,6 +12,6 @@
 1. run ``` npm run make``` to build the application into a desktop application. The results should be in the ```/out``` folder.
 
 # Resources
-1. The tutorial I followed to setup the react enviorment is [https://dev.to/mandiwise/electron-apps-made-easy-with-create-react-app-and-electron-forge-560e]
-2. The react js documentation is located [https://reactjs.org/docs/getting-started.html]
-3. The electron js documentation is located [https://www.electronjs.org/docs]
+1. The tutorial I followed to setup the react enviorment is https://dev.to/mandiwise/electron-apps-made-easy-with-create-react-app-and-electron-forge-560e
+2. The react js documentation is located https://reactjs.org/docs/getting-started.html
+3. The electron js documentation is located https://www.electronjs.org/docs
