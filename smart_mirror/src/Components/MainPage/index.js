@@ -1,14 +1,17 @@
 import React from 'react';
-import Clock from '../Clock'; 
-import Greeting from '../Greeting';
+import Daily from '../Daily';
+import Time from '../Daily/Time';
+import DateComponent from '../Daily/DateComponent';
 
+const styleSheet = {
+    fontFamily : "Gaegu"
+}
 
 const MainPage = ()=> {
     
     return(
-        <div>
-            <Greeting />
-            <Clock />
+        <div style = {styleSheet}>
+            <Daily />
         </div>
     ); 
 }
