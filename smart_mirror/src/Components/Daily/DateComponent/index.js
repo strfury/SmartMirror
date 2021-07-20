@@ -37,7 +37,7 @@ const DateComponent = ()=>{
         }
     },[]); 
 
-    return (<h2>{currentMonth + currentDay + currentYear + " - " + days[currentDOW]}</h2>); // displays the current time and is updated everytime currentTime is updated
+    return (<h>{currentMonth + currentDay + currentYear + " - " + days[currentDOW]}</h>); // displays the current time and is updated everytime currentTime is updated
 };
 
 export default DateComponent; 

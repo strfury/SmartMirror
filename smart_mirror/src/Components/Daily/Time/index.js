@@ -1,7 +1,7 @@
 import React, {useState,useEffect} from 'react';
-const styleSheet = {
+/* const styleSheet = {
     paddingLeft: "45px"
-}
+}*/
 const editTime = (rawTime)=>{
     if(rawTime < 10)
     {
@@ -32,7 +32,7 @@ const Time = ()=>{
         }
     },[]); 
 
-    return (<h2 style = {styleSheet}>{currentHour + ":" + currentMinutes + ":" + currentSeconds}</h2>); // displays the current time and is updated everytime currentTime is updated
+    return (<h2>{currentHour + ":" + currentMinutes + ":" + currentSeconds}</h2>); // displays the current time and is updated everytime currentTime is updated
 };
 
 export default Time; 
