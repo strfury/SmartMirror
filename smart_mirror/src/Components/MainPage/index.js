@@ -8,6 +8,7 @@ import League from '../League';
 const styleSheet = {
     div : {
         fontFamily : "Gaegu",
+        fontSize: "12px",
         display: "flex",
         flexDirection: "column",
         justifyContent: "space-between",

@@ -37,7 +37,7 @@ const League = ()=>{
     },[]); 
     
     return(
-            <img width = {450} src={currentSkin} style = {styleSheet}></img>
+            <img width = {200} src={currentSkin} style = {styleSheet}></img>
     )
 }
 export default League;

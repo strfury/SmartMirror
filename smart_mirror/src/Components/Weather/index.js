@@ -47,7 +47,7 @@ const Weather = ()=>{
     
   return(
   <div>
-      <img src={createPath(currentIcon)}></img>
+      <img src={createPath(currentIcon)} height={75}></img>
       <p>{currentWeather}°F - {currentStatus}</p>
   </div>)
 }
